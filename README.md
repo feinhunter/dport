@@ -1,5 +1,8 @@
 # dport.sh - iptables 端口转发配置工具
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Shell Script](https://img.shields.io/badge/Shell-Bash-green.svg)](https://www.gnu.org/software/bash/)
+
 一个自动化配置 iptables 端口转发规则的 Bash 脚本，支持 IPv4/IPv6 双栈，开机自动加载。
 
 ## ✨ 特性
@@ -22,14 +25,14 @@
 ### 1. 下载脚本
 
 ```bash
-wget https://raw.githubusercontent.com/你的用户名/仓库名/main/dport.sh
+wget https://raw.githubusercontent.com/feinhunter/dport/main/dport.sh
 chmod +x dport.sh
 ```
 
 或使用 curl：
 
 ```bash
-curl -O https://raw.githubusercontent.com/你的用户名/仓库名/main/dport.sh
+curl -O https://raw.githubusercontent.com/feinhunter/dport/main/dport.sh
 chmod +x dport.sh
 ```
 
@@ -142,6 +145,8 @@ MIT License
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request！
+
+项目地址：https://github.com/feinhunter/dport
 
 ## ⚠️ 注意事项
 
